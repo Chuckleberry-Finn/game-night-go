@@ -1,0 +1,37 @@
+module Base
+{
+    item GoStoneBlack
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Black Go Stone,
+        Icon = Item_Go/blackStone,
+        WorldStaticModel = GoStoneBlack,
+    }
+
+    item GoStoneWhite
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = White Go Stone,
+        Icon = Item_Go/whiteStone,
+        WorldStaticModel = GoStoneWhite,
+    }
+	
+	item GoBoard
+	{
+
+       DisplayCategory = GameBoard, Weight = 0.01, Type = Normal,
+       DisplayName = Go Board, Icon = Item_Go/Go_Board_Front, WorldStaticModel = GoBoard,
+	}
+
+    item GoBox
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 1.5,
+        DisplayName = Go Case, Icon = Item_Boxes/GoBox, WorldStaticModel = GoBox,
+    }
+
+    item GoBox_sealed
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 1.5,
+        DisplayName = Go Case (Sealed), Icon = Item_Boxes/GoBox, WorldStaticModel = GoBox,
+    }
+}

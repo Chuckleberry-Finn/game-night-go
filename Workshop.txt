@@ -1,0 +1,6 @@
+version=1
+id=
+title=Game Night: Go
+description=
+tags=Build 41;Multiplayer;Pop Culture;Silly/Fun
+visibility=public
