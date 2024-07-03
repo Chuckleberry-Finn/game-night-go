@@ -1,9 +1,9 @@
 module Base
 {
-    model ScrabbleTiles
+    model GoStones
     {
         mesh = WorldItems/Cookies_Shortbread,
-        texture = Item_Go/deckTexture,
+        texture = Item_Go/Generic_Stone,
         scale = 0.02,
     }
 
