@@ -1,35 +1,44 @@
 module Base
 {
-    model GoStones
-    {
-        mesh = WorldItems/Cookies_Shortbread,
-        texture = Item_Go/Generic_Stone,
-        scale = 0.02,
-    }
+  
 
 	model GoBoard {
         mesh = WorldItems/CheckerBoard, texture = Item_Go/Go_Board_Front, scale = 0.48,
         attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
     }
 
-    model GoStoneBlack
+    model GoStonesBlack
     {
-        mesh = WorldItems/RaspberryShortbread,
+        mesh = WorldItems/Cookies_Shortbread,
         texture = Item_Go/Black_Stone_Texture,
         scale = 0.01,
     }
 
-    model GoStoneWhite
+    model GoStonesWhite
     {
-        mesh = WorldItems/RaspberryShortbread,
+        mesh = WorldItems/Cookies_Shortbread,
         texture = Item_Go/White_Stone_Texture,
         scale = 0.01,
+    }
+
+      model GoStoneWhiteSingle
+    {
+        mesh = WorldItems/RaspberryShortbread,
+        texture = Item_Go/Generic_Stone,
+        scale = 0.02,
+    }
+
+        model GoStoneBlackSingle
+    {
+        mesh = WorldItems/RaspberryShortbread,
+        texture = Item_Go/Generic_Stone,
+        scale = 0.02,
     }
 
     model GoBox
     {
         mesh = WorldItems/PaperclipBox,
         texture = Item_Boxes/GoBox,
-        scale = 0.9,
+        scale = 1.1,
     }
 }
