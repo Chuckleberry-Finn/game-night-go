@@ -14,16 +14,16 @@ module Base
 
     model GoStoneBlack
     {
-        mesh = WorldItems/Button,
+        mesh = WorldItems/RaspberryShortbread,
         texture = Item_Go/Black_Stone_Texture,
-        scale = 0.02,
+        scale = 0.01,
     }
 
     model GoStoneWhite
     {
-        mesh = WorldItems/Button,
+        mesh = WorldItems/RaspberryShortbread,
         texture = Item_Go/White_Stone_Texture,
-        scale = 0.02,
+        scale = 0.01,
     }
 
     model GoBox
