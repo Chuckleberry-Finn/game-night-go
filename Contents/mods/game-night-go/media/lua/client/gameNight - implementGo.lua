@@ -4,18 +4,18 @@ local deckActionHandler = applyItemDetails.deckActionHandler
 local gamePieceAndBoardHandler = applyItemDetails.gamePieceAndBoardHandler
 
 --- Card Table
-local goTilesBlack = {}
-local goTilesWhite = {}
+local goStonesBlack = {}
+local goStonesWhite = {}
 
 for i=1, 100 do
-	table.insert(goTilesBlack, "Go_Stone_Black")
+	table.insert(goStonesBlack, "Go_Stone_Black")
 end
-deckActionHandler.addDeck("GoStonesBlack", goTilesBlack)
+deckActionHandler.addDeck("GoStonesBlack", goStonesBlack)
 
 for i=1, 100 do
-	table.insert(goTilesWhite, "Go_Stone_White")
+	table.insert(goStonesWhite, "Go_Stone_White")
 end
-deckActionHandler.addDeck("GoStonesWhite", goTilesWhite)
+deckActionHandler.addDeck("GoStonesWhite", goStonesWhite)
 
 gamePieceAndBoardHandler.registerTypes({"Base.Go_Board_Front"})
 
