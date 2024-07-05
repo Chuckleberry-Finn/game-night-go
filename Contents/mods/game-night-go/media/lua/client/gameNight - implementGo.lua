@@ -5,16 +5,16 @@ local applyItemDetails = require "gameNight - applyItemDetails"
 local gamePieceAndBoardHandler = applyItemDetails.gamePieceAndBoardHandler
 
 
-gamePieceAndBoardHandler.registerTypes({"Base.Go_Board","Base.GoStonesBlack","Base.GoStonesWhite"})
+gamePieceAndBoardHandler.registerTypes({"Base.GoBoard","Base.GoStonesBlack","Base.GoStonesWhite"})
 
 
-gamePieceAndBoardHandler.registerSpecial("Base.Go_Board",
+gamePieceAndBoardHandler.registerSpecial("Base.GoBoard",
 		{
 			category = "GameBoard",
 			textureSize = {740,800},
 			actions = { lock=true, flipPiece=true },
 			alternateStackRendering = { func="DrawTextureCardFace", depth=9, rgb = {0.78, 0.71, 0.41} },
-			altState="Go_Board_Back",
+			altState="GoBoard_Back",
 			shiftAction = "flipPiece"
 		}
 )

@@ -5,7 +5,7 @@ module Base
         DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
         DisplayName = Black Go Stone,
         Icon = OutOfPlayTextures/Go_Stone_Black,
-        WorldStaticModel = GoStoneBlack,
+        WorldStaticModel = Go_Stone_Black,
     }
 
 
@@ -14,26 +14,27 @@ module Base
         DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
         DisplayName = White Go Stone,
         Icon = OutOfPlayTextures/Go_Stone_White,
-        WorldStaticModel = GoStoneWhite,
+        WorldStaticModel = Go_Stone_White,
     }
 
 
-	item Go_Board
+	item GoBoard
 	{
        DisplayCategory = GameBoard, Weight = 0.01, Type = Normal,
-       DisplayName = Go Board, Icon = OutOfPlayTextures/Go_Board, WorldStaticModel = GoBoard,
+       DisplayName = Go Board, Icon = OutOfPlayTextures/GoBoard, WorldStaticModel = Go_Board,
 	}
 
 
     item GoBox
-    {
-        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 1.5,
-        DisplayName = Go Case, Icon = Boxes/goBox, WorldStaticModel = GoBox,
-    }
+        {
+            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+            DisplayName = Go Box, Icon = Boxes/goBox, WorldStaticModel = CheckersBox,
+        }
 
     item GoBox_sealed
-    {
-        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 1.5,
-        DisplayName = Go Case (Sealed), Icon = Boxes/goBox, WorldStaticModel = GoBox,
-    }
+        {
+            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
+            DisplayName = Go Box (Sealed), Icon = Boxes/goBox, WorldStaticModel = CheckersBox,
+        }
+
 }
