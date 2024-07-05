@@ -1,3 +1,4 @@
+
 ---First require this so that these modules can be called on as needed.
 local applyItemDetails = require "gameNight - applyItemDetails"
 local deckActionHandler = applyItemDetails.deckActionHandler
