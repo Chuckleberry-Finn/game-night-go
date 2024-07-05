@@ -37,7 +37,7 @@ module Base
     model GoBox
     {
         mesh = WorldItems/PaperclipBox,
-        texture = Item_Boxes/GoBox,
+        texture = Item_Boxes/goBox_ground,
         scale = 1.1,
     }
 }
