@@ -16,7 +16,7 @@ module Base
         WorldStaticModel = GoStoneWhite,
     }
 	
-	item GoBoard
+	item Go_Board_Front
 	{
 
        DisplayCategory = GameBoard, Weight = 0.01, Type = Normal,

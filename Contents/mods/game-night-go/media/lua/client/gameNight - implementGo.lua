@@ -23,9 +23,12 @@ gamePieceAndBoardHandler.registerSpecial(
 	"Base.Go_Board_Front",{ category = "GameBoard", textureSize = {740,800}, actions = { lock=true }, 
 	alternateStackRendering = { func="DrawTextureCardFace", depth=9, rgb = {0.78, 0.71, 0.41} },
 	altState="Go_Board_Back", shiftAction = "flipPiece"},
-
-	"Base.GoStonesBlack",{ alternateStackRendering = { func="DrawTextureRoundFace", depth = 1.3, rgb = {0.29, 0.27, 0.29} }, sideTexture = "Black_Stone_Texture" },
-
-	"Base.GoStonesWhite",{ alternateStackRendering = { func="DrawTextureRoundFace", depth = 1.3, rgb = {0.61, 0.62, 0.61} }, sideTexture = "White_Stone_Texture" }
 	)
+
+	gamePieceAndBoardHandler.registerSpecial("Base.GoStonesBlack",{ alternateStackRendering = { func="DrawTextureRoundFace", depth = 1.3, rgb = {0.29, 0.27, 0.29} }, sideTexture = "Black_Stone_Texture" },
+
+	"Base.GoStonesWhite",{ alternateStackRendering = { func="DrawTextureRoundFace", depth = 1.3, rgb = {0.61, 0.62, 0.61} }, sideTexture = "White_Stone_Texture" })
+
+	
+	
 	
