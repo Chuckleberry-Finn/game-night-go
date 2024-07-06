@@ -26,6 +26,7 @@ gamePieceAndBoardHandler.registerSpecial("Base.GoStonesBlack",
 			shiftAction = "takeOneOffStack",
 			canStack = 100,
 			noRotate=true,
+			alternateStackRendering = {func="DrawTextureRoundFace", sideTexture="Black_Stone_Texture", depth = 2, rgb = {0.2, 0.2, 0.2}},
 		}
 )
 
@@ -36,6 +37,7 @@ gamePieceAndBoardHandler.registerSpecial("Base.GoStonesWhite",
 			shiftAction = "takeOneOffStack",
 			canStack = 100,
 			noRotate=true,
+			alternateStackRendering = {func="DrawTextureRoundFace", sideTexture="White_Stone_Texture", depth = 2, rgb = {0.9, 0.9, 0.9}},
 		}
 )
 
