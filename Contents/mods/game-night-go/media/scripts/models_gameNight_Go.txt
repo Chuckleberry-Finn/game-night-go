@@ -3,7 +3,7 @@ module Base
   
 	model Go_Board
 	{
-        mesh = WorldItems/CheckerBoard, texture = Item_InPlayTextures/GoBoard, scale = 0.48,
+        mesh = WorldItems/CheckerBoard, texture = Item_InPlayTextures/GoBoard, scale = 0.46,
         attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
     }
 
