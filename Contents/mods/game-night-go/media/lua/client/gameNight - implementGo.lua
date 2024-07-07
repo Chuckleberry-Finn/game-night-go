@@ -15,10 +15,9 @@ gamePieceAndBoardHandler.registerSpecial("Base.GoBoard",
 			actions = { lock=true, flipPiece=true },
 			alternateStackRendering = { func="DrawTextureCardFace", sideTexture="Board_Side_Texture", rgb = {0.79, 0.66, 0.15}, depth=12, },
 			altState="GoBoard_Back",
-			shiftAction = "flipPiece"
+			shiftAction = "flipPiece",
 		}
 )
-
 
 gamePieceAndBoardHandler.registerSpecial("Base.GoStonesBlack",
 		{
