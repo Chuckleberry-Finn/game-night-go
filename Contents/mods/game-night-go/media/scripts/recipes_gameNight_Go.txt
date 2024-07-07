@@ -1,4 +1,4 @@
 module Base
 {
-    recipe Unseal Box { GoBox_sealed, Result:GoBox, CanBeDoneFromFloor:true, OnCreate:Recipe.GameNight.Unbox, Time:50.0, }
+    recipe Unseal Box { GoBox_sealed, Result:GoBoard, CanBeDoneFromFloor:true, OnCreate:Recipe.GameNight.Unbox, Time:50.0, }
 }
