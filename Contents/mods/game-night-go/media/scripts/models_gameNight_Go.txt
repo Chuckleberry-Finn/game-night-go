@@ -11,14 +11,14 @@ module Base
     {
         mesh = WorldItems/coin,
         texture = modelTextures/Black_Stone_Texture,
-        scale = 0.003,
+        scale = 0.001,
     }
 
     model Go_Stones_White
     {
         mesh = WorldItems/coin,
         texture = modelTextures/White_Stone_Texture,
-        scale = 0.003,
+        scale = 0.001,
     }
 
     model Go_Box

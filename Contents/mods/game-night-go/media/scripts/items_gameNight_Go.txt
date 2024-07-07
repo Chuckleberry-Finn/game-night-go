@@ -20,7 +20,7 @@ module Base
 
 	item GoBoard
 	{
-       DisplayCategory = GameBoard, WeightReduction = 20, Weight = 0.01, Type = Container, Capacity = 1,
+       DisplayCategory = GameBoard, WeightReduction = 12, Weight = 1, Type = Container, Capacity = 1,
        DisplayName = Go Board, Icon = OutOfPlayTextures/GoBoard, WorldStaticModel = Go_Board,
 	}
 
