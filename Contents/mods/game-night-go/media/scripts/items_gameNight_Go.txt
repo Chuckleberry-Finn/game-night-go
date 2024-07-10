@@ -2,39 +2,62 @@ module Base
 {
    	 item GoStonesBlack
     {
-        DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
         DisplayName = Black Go Stone,
-        Icon = OutOfPlayTextures/Go_Stone_Black,
+        Icon = OutOfPlayTextures/Go_Stone_Black_ico,
         WorldStaticModel = Go_Stones_Black,
     }
 
 
   	item GoStonesWhite
     {
-        DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
         DisplayName = White Go Stone,
-        Icon = OutOfPlayTextures/Go_Stone_White,
+        Icon = OutOfPlayTextures/Go_Stone_White_ico,
         WorldStaticModel = Go_Stones_White,
     }
 
 
 	item GoBoard
 	{
-       DisplayCategory = GameBoard, Weight = 0.01, Type = Normal,
-       DisplayName = Go Board, Icon = OutOfPlayTextures/GoBoard, WorldStaticModel = Go_Board,
+       DisplayCategory = GameBoard, 
+       WeightReduction = 12, 
+       Weight = 1, 
+       Type = Container, 
+       Capacity = 0.6,
+       PutInSound   =   PutItemInBag,
+       DisplayName = Go Board, 
+       Icon = OutOfPlayTextures/GoBoard, 
+       WorldStaticModel = Go_Board,
 	}
 
 
     item GoBox
         {
-            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
-            DisplayName = Go Box, Icon = Boxes/goBox, WorldStaticModel = Go_Box,
+        DisplayCategory = GameBox, 
+        WeightReduction = 20, 
+        Weight = 0.1, 
+        Type = Container, 
+        Capacity = 2,
+        DisplayName = Go Box, 
+        Icon = Boxes/goBox, 
+        WorldStaticModel = Go_Box,
         }
 
     item GoBox_sealed
         {
-            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
-            DisplayName = Go Box (Sealed), Icon = Boxes/goBox, WorldStaticModel = Go_Box,
+         DisplayCategory = GameBox, 
+         WeightReduction = 20, 
+         Weight = 0.1, 
+         Type = Normal, 
+         Capacity = 2,
+         DisplayName = Go Board (Sealed), 
+         Icon = OutOfPlayTextures/GoBoard, 
+         WorldStaticModel = Go_Board,
         }
 
 }
