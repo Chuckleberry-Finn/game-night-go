@@ -28,7 +28,7 @@ module Base
        WeightReduction = 12, 
        Weight = 1, 
        Type = Container, 
-       Capacity = 0.6,
+       Capacity = 1,
        PutInSound   =   PutItemInBag,
        DisplayName = Go Board, 
        Icon = OutOfPlayTextures/GoBoard, 
@@ -36,25 +36,13 @@ module Base
 	}
 
 
-    item GoBox
-        {
-        DisplayCategory = GameBox, 
-        WeightReduction = 20, 
-        Weight = 0.1, 
-        Type = Container, 
-        Capacity = 2,
-        DisplayName = Go Box, 
-        Icon = Boxes/goBox, 
-        WorldStaticModel = Go_Box,
-        }
-
-    item GoBox_sealed
+    item GoBoard_sealed
         {
          DisplayCategory = GameBox, 
-         WeightReduction = 20, 
+         WeightReduction = 12,
          Weight = 0.1, 
-         Type = Normal, 
-         Capacity = 2,
+         Type = Normal,
+         Capacity = 1,
          DisplayName = Go Board (Sealed), 
          Icon = OutOfPlayTextures/GoBoard, 
          WorldStaticModel = Go_Board,

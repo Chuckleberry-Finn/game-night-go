@@ -20,11 +20,4 @@ module Base
         texture = modelTextures/White_Stone_Texture,
         scale = 0.001,
     }
-
-    model Go_Box
-    {
-        mesh = WorldItems/cardpack,
-        texture = Item_Boxes/goBox_ground,
-        scale = 0.06,
-    }
 }
