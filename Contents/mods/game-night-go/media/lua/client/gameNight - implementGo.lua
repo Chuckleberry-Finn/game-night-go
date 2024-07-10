@@ -13,7 +13,7 @@ gamePieceAndBoardHandler.registerSpecial("Base.GoBoard",
 			category = "GameBoard",
 			textureSize = {740,800},
 			actions = { lock=true, flipPiece=true },
-			alternateStackRendering = { func="DrawTextureCardFace", depth=9, rgb = {0.78, 0.71, 0.41} },
+			alternateStackRendering = { func="DrawTextureCardFace", sideTexture="GoBoardSide", depth=6, rgb = {0.78, 0.71, 0.41} },
 			altState="GoBoard_Back",
 			shiftAction = "flipPiece"
 		}
