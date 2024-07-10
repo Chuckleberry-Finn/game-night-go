@@ -33,6 +33,7 @@ module Base
        DisplayName = Go Board, 
        Icon = OutOfPlayTextures/GoBoard, 
        WorldStaticModel = Go_Board,
+       gameNight_boxEnough = TRUE,
 	}
 
 
