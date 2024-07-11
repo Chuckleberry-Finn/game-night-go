@@ -6,7 +6,7 @@ module Base
         Weight = 0.01, 
         Type = Normal,
         DisplayName = Black Go Stone,
-        Icon = OutOfPlayTextures/GoStonesBlack,
+        Icon = OutOfPlayTextures/Go_Stone_Black_ico,
         WorldStaticModel = Go_Stones_Black,
     }
 
@@ -17,7 +17,7 @@ module Base
         Weight = 0.01, 
         Type = Normal,
         DisplayName = White Go Stone,
-        Icon = OutOfPlayTextures/GoStonesWhite,
+        Icon = OutOfPlayTextures/GoStonesWhite_ico,
         WorldStaticModel = Go_Stones_White,
     }
 
