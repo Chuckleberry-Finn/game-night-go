@@ -4,6 +4,5 @@ ItemName_EN = {
     ItemName_Base.GoStonesWhite = "Go Stone (White)"
     ItemName_Base.GoBoard = "Go Board"
 
-    ItemName_Base.GoBox = "Go Box",
-    ItemName_Base.GoBox_sealed = "Go Box (Sealed)",
+    ItemName_Base.GoBox_sealed = "Go Board (Sealed)",
 }
