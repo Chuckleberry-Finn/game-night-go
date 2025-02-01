@@ -1,0 +1,38 @@
+module Base
+{
+   	 item GoStonesBlack
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Black Go Stone,
+        Icon = OutOfPlayTextures/Go_Stone_Black,
+        WorldStaticModel = Go_Stones_Black,
+    }
+
+
+  	item GoStonesWhite
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = White Go Stone,
+        Icon = OutOfPlayTextures/GoStonesWhite,
+        WorldStaticModel = Go_Stones_White,
+    }
+
+
+	item GoBoard
+	{
+       DisplayCategory = GameBoard, 
+       WeightReduction = 12, 
+       Weight = 1, 
+       Type = Container, 
+       Capacity = 1,
+       DisplayName = Go Board, 
+       Icon = OutOfPlayTextures/GoBoard, 
+       WorldStaticModel = Go_Board,
+       gameNight_boxEnough = TRUE,
+	}
+
+}
