@@ -2,13 +2,13 @@
 ---First require this so that these modules can be called on as needed.
 local applyItemDetails = require "gameNight - applyItemDetails"
 --local deckActionHandler = applyItemDetails.deckActionHandler
-local gamePieceAndBoardHandler = applyItemDetails.gamePieceAndBoardHandler
+local gamePieceHandler = applyItemDetails.gamePieceHandler
 
 
-gamePieceAndBoardHandler.registerTypes({"Base.GoBoard","Base.GoStonesBlack","Base.GoStonesWhite"})
+gamePieceHandler.registerTypes({"Base.GoBoard","Base.GoStonesBlack","Base.GoStonesWhite"})
 
 
-gamePieceAndBoardHandler.registerSpecial("Base.GoBoard",
+gamePieceHandler.registerSpecial("Base.GoBoard",
 		{
 			category = "GameBoard",
 			textureSize = {740,800},
@@ -20,7 +20,7 @@ gamePieceAndBoardHandler.registerSpecial("Base.GoBoard",
 )
 
 
-gamePieceAndBoardHandler.registerSpecial("Base.GoStonesBlack",
+gamePieceHandler.registerSpecial("Base.GoStonesBlack",
 		{
 			weight = 0.003,
 			shiftAction = "takeOneOffStack",
@@ -31,7 +31,7 @@ gamePieceAndBoardHandler.registerSpecial("Base.GoStonesBlack",
 )
 
 
-gamePieceAndBoardHandler.registerSpecial("Base.GoStonesWhite",
+gamePieceHandler.registerSpecial("Base.GoStonesWhite",
 		{
 			weight = 0.003,
 			shiftAction = "takeOneOffStack",
