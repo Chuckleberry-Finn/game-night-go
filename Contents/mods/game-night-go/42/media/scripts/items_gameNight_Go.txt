@@ -32,4 +32,9 @@ module Base
        gameNight_boxEnough = TRUE,
 	}
 
+	item GoBoard_sealed {
+		DisplayCategory = GameBox, Weight = 1, ItemType = base:normal,
+		Icon = OutOfPlayTextures/GoBoard, WorldStaticModel = Go_Board,
+	}
+
 }

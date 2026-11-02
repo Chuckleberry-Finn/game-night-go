@@ -1,5 +1,4 @@
-local applyItemDetails = require("gameNight-applyItemDetails.lua")
-local gamePieceHandler = applyItemDetails.gamePieceHandler
+local gamePieceHandler = require("gameNight-gamePieceHandler.lua")
 
 gamePieceHandler.registerTypes({"Base.GoBoard","Base.GoStonesBlack","Base.GoStonesWhite"})
 
